@@ -39,7 +39,7 @@ def get_client_ip(request):
         ip = request.META.get('REMOTE_ADDR')
     return ip
 
-class AddLike(View):
+class git(View):
     def get(self, request, pk):
         ip_client = get_client_ip(request)
         try:
